@@ -1,26 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-.nav-container{
-    border: 8px solid red;
-    max-width: 1400px;
+nav{
+    max-width: 1920px;
     height: 130px;
+    margin: auto;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+    
+}
+.nav-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
+    text-align: center;
+    
 
 }
+.nav-menu{
+    display: flex;
+    border: 1px solid;
+    height: auto;
+    align-items: center;
+}
+
 .nav-logo{
     display: flex;
-    border: 2px solid yellow;
+    
     width: 50%;
     align-items: center;
-    font-size: 20px;
+    
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 .nav-logo h1{
     font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
 }
 .nav-logo img{
     width: 86.041px;
@@ -29,17 +44,30 @@
 }
 .nav-menu a{
     text-decoration: none;
-    margin-right: 10px;
+    margin-left: 40px;
+    
     width: 50%;
     color: #3C354F;
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Work Sans',;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     
 }
-.nav-menu{
-    border: 2px solid green;
+
+.youtube{
+    background-color: #b2b1b6;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+    
 }
+.fa-brands{
+    font-size: 25px;
+    margin-left: 10px;
+}
+  
