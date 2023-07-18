@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
 nav{
     max-width: 1920px;
     height: 130px;
@@ -63,8 +64,170 @@ nav{
     padding: 5px;
     display: flex;
     justify-content: center;
+    width: 262px;
     
     
 }
+.banner-container{
+    border: 1px solid ;
+    display: flex;
+    background-color: ;
+    max-width:1920px ;
+    align-items: center;
+    height: 700px;
+    margin: auto;
+    background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    ;
+    color: transparent;
+    -webkit-background-clip: content-box;
 
+}
+.banner-text p{
+    color: #534C64;
+    
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    
+    
+}
+.banner-text{
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    
+    
+}
+.banner-text h4{
+    color: #0B0223;
+    font-family: 'Work Sans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+.banner-text h1{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+   
+}
+.tittle{
+    background-image: linear-gradient(to bottom, rgb(233, 22, 173),rgb(58, 7, 241));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-img{
+    width: 50%;
+    height: 100%;
+
+}
+.banner-img img{
+    width: 100%;
+    max-height: 100%;
+}
+.sign-btn{
+    background-color: rgb(254, 103, 153);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.go-btn{
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+main{
+    max-width: 1920px;
+    margin: auto;
+}
+ .section-one{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, rgba(247, 47, 150, 0.03) 0%, rgba(251, 42, 150, 0.03) 100%); ;
+    color: transparent;
+    -webkit-background-clip: border-box;
+    
+  }
+  .one-text{
+    width: 50%;
+    text-align: end;
+    
+  }
+  .one-image{
+    width: 50%;
+  }
+.one-image img{
+    width: 100%;
+    
+    
+  }
+  .one-text h3{
+    text-align: right;
+    font-family: 'Work Sans';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+  }
+  
+
+  .one-text p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+  }
+  .section-two{
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+  }
+  .two-images{
+    display: flex;
+    width: 100%;
+    gap: 0 10px;
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .img-game img{
+    max-width: 320px;
+    
+    margin-top: 10px;
+  }
+  
+  .img-game p{
+    width: 320px;
+    color: #534C64;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+   
+  }
+  .four:hover{
+    
+  }
   

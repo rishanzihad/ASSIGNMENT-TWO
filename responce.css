@@ -1,23 +1,97 @@
 @media screen and (max-width:500px) {
     .nav-container{
         flex-direction: column;
+        padding: 20px 0;
+    }
+    nav{
+        height: 100%;
+        margin-bottom: 20px;
     }
     .nav-menu,.nav-logo {
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
         width: 100%;
+        
+        
+    }
+    .nav-menu a{
+        margin-left: 0;
+    }
+    .nav-logo h1{
+        font-size: 30px;
+        margin-top: 0px;
     }
     
+    .banner-container{
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .section-one{
+        width: 100%;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .section-one,.two-images{
+        flex-direction: column;
+    }
+    .one-image{
+        width: 90%;
+    }
+    .one-text{
+        width: 100%;
+        text-align: end;
+    }
+    .img-game img{
+        width: 100%;
+    }
 }
 @media screen and (min-width:500px) and (max-width:800px) {
     .nav-container{
         flex-direction: column;
+        padding: 20px 0;
     }
     .nav-menu,.nav-logo {
         flex-direction: column;
         row-gap: 20px;
         align-items: center;
+        width: 100%;
+        
+    }
+    nav{
+        height: auto;
+    }
+    .nav-menu a{
+        margin-left: 0;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .banner-img{
+        width: 100%;
+    }
+   
+    .banner-text{
+        width: 100%;
+    }
+    .section-one,.two-images{
+        flex-direction: column;
+    }
+    .one-image{width: 100%;
+    }
+    .two-images img{
+        width: 100%;
+    }
+    .one-text{
         width: 100%;
     }
 }
