@@ -51,8 +51,54 @@
     .img-game img{
         width: 100%;
     }
+    .section-three{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .three-image{
+        padding: 0;
+    }
+    .three{
+        width: 100%;
+    }
+    .three-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        
+    }
+    
+    .three{
+        width: 100%;
+        height: 70%;
+    }
+    .three-image{
+        width: 100%;
+        height: auto;
+    }
+    .inside img{
+        width: 200px;
+        height: 200px;
+    }
+    .inside {
+        right: 50px;
+        bottom: 150px;
+    }
+    .section-five{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+    }
+
 }
-@media screen and (min-width:500px) and (max-width:800px) {
+@media screen and (min-width:500px) and (max-width:990px) {
     .nav-container{
         flex-direction: column;
         padding: 20px 0;
@@ -94,4 +140,43 @@
     .one-text{
         width: 100%;
     }
+    .section-three{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    .three-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .three{
+        width: 100%;
+        height: 100%;
+    }
+    .three-image{
+        width: 100%;
+        height: 100%;
+    }
+    .inside img{
+        width: 200px;
+        height: 200px;
+    }
+    .inside {
+        right: 50px;
+        bottom: 150px;
+    }
+    .three-image{
+        padding: 0;
+    }
+    
 }
