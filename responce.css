@@ -99,9 +99,18 @@
     .section-four{
         flex-direction: column;
     }
+    .two-one{
+        padding: 40px;
+    }
+    .d-one h1{
+        padding: 0 40px;
+    }
+    .sm{
+        padding: 0 40px;
+    }
 
     .d-one{
-        padding: 0;
+        padding: 0px;
         width: 100%;
     }
     .four-img img{
