@@ -110,6 +110,17 @@
     .four-img{
         width: 100%;
     }
+    .li-item{
+        margin-top: 20px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-logo{
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 10px;
+    }
+    .footer-colum{
+        padding-top: 20px;
+    }
 }
 @media screen and (min-width:500px) and (max-width:990px) {
     .nav-container{

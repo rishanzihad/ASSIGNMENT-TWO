@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-
+*{
+    margin: 0;
+}
 nav{
     max-width: 1920px;
     height: 130px;
@@ -403,10 +405,11 @@ footer{
     
 }
 .li-item{
-    display: flex;
+    display: grid;
     list-style: none;
     gap: 20px;
     color: #e3e2e7;
+    grid-template-columns: repeat(6,1fr);
     
 }
 .nav-logos{
@@ -422,6 +425,8 @@ footer{
     height: 40px;
     margin-right: 10px;}
 .footer-logo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     font-size:30px ;
     margin-top: 20px;
     align-items: center;
