@@ -93,8 +93,10 @@
         bottom: 150px;
     }
     .section-five{
-        grid-template-columns: repeat(2,1fr);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
         padding: 0;
+        
     }
     .section-four{
         flex-direction: column;
@@ -130,6 +132,7 @@
     .footer-colum{
         padding-top: 20px;
     }
+    
 }
 @media screen and (min-width:500px) and (max-width:990px) {
     .nav-container{
