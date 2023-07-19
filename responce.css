@@ -96,7 +96,20 @@
         grid-template-columns: repeat(2,1fr);
         padding: 0;
     }
+    .section-four{
+        flex-direction: column;
+    }
 
+    .d-one{
+        padding: 0;
+        width: 100%;
+    }
+    .four-img img{
+        width: 100%;
+    }
+    .four-img{
+        width: 100%;
+    }
 }
 @media screen and (min-width:500px) and (max-width:990px) {
     .nav-container{
@@ -177,6 +190,23 @@
     }
     .three-image{
         padding: 0;
+    }
+    .section-five{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+    }
+    .section-four{
+        flex-direction: column;
+    }
+.four-img{
+    width: 100%;
+}
+    .d-one{
+        padding: 0;
+        width: 100%;
+    }
+    .four-img img{
+        width: 100%;
     }
     
 }
