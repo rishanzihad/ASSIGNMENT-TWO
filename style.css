@@ -145,6 +145,7 @@ nav{
     background-color: rgb(254, 103, 153);
     padding: 10px 20px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .go-btn{
     background-color: aqua;
@@ -368,13 +369,13 @@ main{
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding-left: 300px;
+    padding-right: 300px;
     row-gap: 40px;
     
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    background: linear-gradient(300deg, rgba(234, 13, 127, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     color: transparent;
     -webkit-background-clip: border-box;
 }   
